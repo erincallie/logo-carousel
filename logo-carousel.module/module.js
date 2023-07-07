@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
   const init_carousels = function() {
     const carousels = $(".owl-carousel");
     carousels.each(function() {
