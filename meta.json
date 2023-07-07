@@ -1,0 +1,22 @@
+{
+  "global" : false,
+  "icon" : "fontawesome-5.14.0:Globe:SOLID",
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
+  "module_id" : 123781116281,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../css/tools/vendor/owl-carousel.css",
+    "name" : "owl-carousel.css"
+  } ],
+  "js_assets" : [ {
+    "autoload" : true,
+    "path" : "../../js/vendor/jquery.js",
+    "name" : "jquery.js"
+  }, {
+    "autoload" : true,
+    "path" : "../../../phenom/js/vendor/owl-carousel.js",
+    "name" : "owl-carousel.js"
+  } ],
+  "label" : "Logo Carousel",
+  "is_available_for_new_content" : true
+}

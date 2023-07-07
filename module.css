@@ -1,0 +1,16 @@
+.logo__image {
+  position: relative; 
+  aspect-ratio: 3 / 2;
+}
+
+.logo__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: grayscale(1)opacity(0.5);
+  transition: all .5s ease-in-out;
+}
+
+.logo__image:hover img {
+  filter: none;
+}
