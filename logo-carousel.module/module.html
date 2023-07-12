@@ -1,9 +1,9 @@
 {% set xml_attr = {
-  "autoplay": module.options.autoplay,
-  "delay": module.options.delay,
-  "desktop_items": module.options.desktop_items,
-  "tablet_items": module.options.tablet_items,
-  "mobile_items": module.options.mobile_items
+  "data-autoplay": module.options.autoplay,
+  "data-delay": module.options.delay,
+  "data-desktop-items": module.options.desktop_items,
+  "data-tablet-items": module.options.tablet_items,
+  "data-mobile-items": module.options.mobile_items
 } %}
 
 <div class="logos owl-carousel" {{ xml_attr|xmlattr }}>
